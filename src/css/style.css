@@ -93,5 +93,11 @@ a {
     #cara-kerja,
     #perbedaan {
     padding-top: 60px;
+    }
 }
+
+@media screen and (max-width: 493px) {
+    .hero-img div img {
+        margin-top: 50px;
+    }
 }
