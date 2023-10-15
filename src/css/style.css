@@ -1,0 +1,97 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #dbdbdb;
+}
+
+nav {
+    width: 100%;
+    z-index: 100;
+}
+
+span {
+    margin-left: 25px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.name {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.main {
+    display: flex;
+}
+
+.table-of-content {
+    width: 25%;
+    height: 100vh;
+    position: fixed ;
+    background-color: #efefef;
+}
+
+.table-of-content div {
+    margin-top: 100px;
+}
+
+.table-of-content div ul li {
+    margin-top: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.table-of-content div ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin: 10px 10px 10px 26%;
+}
+
+.hero-img div {
+    margin: 50px auto 0 auto;
+}
+.hero-img div img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#pengertian,
+#kelebihan,
+#tujuan,
+#fungsi,
+#kekurangan,
+#jenis,
+#cara-kerja,
+#perbedaan {
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 992px) {
+    .table-of-content {
+        display: none;
+    }
+    
+    .content {
+        margin: 10px 30px;
+    }
+
+    #pengertian,
+    #kelebihan,
+    #tujuan,
+    #fungsi,
+    #kekurangan,
+    #jenis,
+    #cara-kerja,
+    #perbedaan {
+    padding-top: 60px;
+}
+}
